@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog logicalFilePath="dbMigration/changelogs/db.changelog-1.0.xml"
+                   xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.0.xsd">
+    <changeSet id="20161205-1207-dkim" author="dkim">
+        <comment>Init tables</comment>
+        <sqlFile encoding="utf8" path="patches/changesets/2016.12/20161205-1207-dkim.sql"/>
+    </changeSet>
+</databaseChangeLog>
